@@ -38,12 +38,14 @@ const Index = () => {
         </div>
 
         <div className="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
-          <Card className="p-6 glass">
-            <h3 className="text-lg font-semibold">Real-Time Trading</h3>
-            <p className="mt-2 text-muted-foreground">
-              Execute trades instantly with our advanced order system
-            </p>
-          </Card>
+          <Link to="/investir-agora">
+            <Card className="p-6 glass transition-all hover:bg-accent/10">
+              <h3 className="text-lg font-semibold">Investir Agora</h3>
+              <p className="mt-2 text-muted-foreground">
+                Explore oportunidades de investimento em ações, fundos e mais
+              </p>
+            </Card>
+          </Link>
           
           <Card className="p-6 glass">
             <h3 className="text-lg font-semibold">Professional Charts</h3>
