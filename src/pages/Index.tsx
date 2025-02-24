@@ -56,12 +56,14 @@ const Index = () => {
             </Card>
           </Link>
           
-          <Card className="p-6 glass">
-            <h3 className="text-lg font-semibold">Professional Charts</h3>
-            <p className="mt-2 text-muted-foreground">
-              TradingView integration for advanced technical analysis
-            </p>
-          </Card>
+          <Link to="/dashboard">
+            <Card className="p-6 glass transition-all hover:bg-accent/10">
+              <h3 className="text-lg font-semibold">Dashboard</h3>
+              <p className="mt-2 text-muted-foreground">
+                Acesse sua área do cliente e gerencie seus investimentos
+              </p>
+            </Card>
+          </Link>
         </div>
       </main>
     </div>
