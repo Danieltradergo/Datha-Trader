@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import InvestirAgora from "./pages/InvestirAgora";
+import Payments from "./pages/Payments";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/investir-agora" element={<InvestirAgora />} />
+          <Route path="/payments" element={<Payments />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

@@ -47,17 +47,19 @@ const Index = () => {
             </Card>
           </Link>
           
+          <Link to="/payments">
+            <Card className="p-6 glass transition-all hover:bg-accent/10">
+              <h3 className="text-lg font-semibold">Depósitos e Saques</h3>
+              <p className="mt-2 text-muted-foreground">
+                Faça depósitos e saques via PIX de forma rápida e segura
+              </p>
+            </Card>
+          </Link>
+          
           <Card className="p-6 glass">
             <h3 className="text-lg font-semibold">Professional Charts</h3>
             <p className="mt-2 text-muted-foreground">
               TradingView integration for advanced technical analysis
-            </p>
-          </Card>
-          
-          <Card className="p-6 glass">
-            <h3 className="text-lg font-semibold">Secure Payments</h3>
-            <p className="mt-2 text-muted-foreground">
-              Fast deposits and withdrawals with PIX integration
             </p>
           </Card>
         </div>
