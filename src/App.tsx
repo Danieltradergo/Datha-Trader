@@ -10,6 +10,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import InvestirAgora from "./pages/InvestirAgora";
 import NegocieAgora from "./pages/NegocieAgora";
+import TradeNow from "./pages/TradeNow";
 import Payments from "./pages/Payments";
 import Dashboard from "./pages/Dashboard";
 
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/login" element={<Login />} />
           <Route path="/investir-agora" element={<InvestirAgora />} />
           <Route path="/negocie-agora" element={<NegocieAgora />} />
+          <Route path="/trade-now" element={<TradeNow />} />
           <Route path="/payments" element={<Payments />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="*" element={<NotFound />} />

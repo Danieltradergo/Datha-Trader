@@ -38,20 +38,20 @@ const Index = () => {
         </div>
 
         <div className="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
-          <Link to="/negocie-agora">
+          <Link to="/trade-now">
             <Card className="p-6 glass transition-all hover:bg-accent/10">
-              <h3 className="text-lg font-semibold">Negocie Agora</h3>
+              <h3 className="text-lg font-semibold">Trade Now</h3>
               <p className="mt-2 text-muted-foreground">
-                Opere no mercado com spread fixo de $1 em todos os ativos
+                Access real-time charts and trade global markets with professional tools
               </p>
             </Card>
           </Link>
           
           <Link to="/payments">
             <Card className="p-6 glass transition-all hover:bg-accent/10">
-              <h3 className="text-lg font-semibold">Depósitos e Saques</h3>
+              <h3 className="text-lg font-semibold">Deposits & Withdrawals</h3>
               <p className="mt-2 text-muted-foreground">
-                Faça depósitos e saques via PIX de forma rápida e segura
+                Manage your funds securely with multiple payment options
               </p>
             </Card>
           </Link>
@@ -60,7 +60,7 @@ const Index = () => {
             <Card className="p-6 glass transition-all hover:bg-accent/10">
               <h3 className="text-lg font-semibold">Dashboard</h3>
               <p className="mt-2 text-muted-foreground">
-                Acesse sua área do cliente e gerencie seus investimentos
+                Track your portfolio performance and trading history
               </p>
             </Card>
           </Link>
