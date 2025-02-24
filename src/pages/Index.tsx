@@ -38,11 +38,11 @@ const Index = () => {
         </div>
 
         <div className="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
-          <Link to="/investir-agora">
+          <Link to="/negocie-agora">
             <Card className="p-6 glass transition-all hover:bg-accent/10">
-              <h3 className="text-lg font-semibold">Investir Agora</h3>
+              <h3 className="text-lg font-semibold">Negocie Agora</h3>
               <p className="mt-2 text-muted-foreground">
-                Explore oportunidades de investimento em ações, fundos e mais
+                Opere no mercado com spread fixo de $1 em todos os ativos
               </p>
             </Card>
           </Link>
